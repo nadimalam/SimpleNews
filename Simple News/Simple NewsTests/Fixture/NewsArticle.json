@@ -1,0 +1,474 @@
+{
+    "status": "ok",
+    "totalResults": 36,
+    "articles": [
+        {
+            "source": {
+                "id": null,
+                "name": "Theguardian.com"
+            },
+            "author": "Scott Murray",
+            "title": "Montenegro v England: Euro 2020 qualifier – live! - The Guardian",
+            "description": "Minute-by-minute report: Declan Rice and Callum Hudson-Odoi make their first England starts in Podgorica. Get all the latest from Scott Murray",
+            "url": "https://www.theguardian.com/football/live/2019/mar/25/montenegro-v-england-euro-2020-qualifying-live",
+            "urlToImage": "https://i.guim.co.uk/img/media/f0bbcd464df439f8616507e3c7ed278d964cf67d/129_115_3083_1850/master/3083.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&s=b8de5e991a0459284333ce232e63fa32",
+            "publishedAt": "2019-03-25T19:15:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "independent",
+                "name": "Independent"
+            },
+            "author": "Chris Riotta",
+            "title": "Trump news - live: President to formally recognise Israeli control of Golan Heights today, as Mueller report fallout intensifies - The Independent",
+            "description": "Follow the latest updates from Washington",
+            "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-news-live-mueller-report-collusion-exonerated-russia-barr-a8838316.html",
+            "urlToImage": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/03/24/23/2019-03-24T210332Z-1225118248-RC13A9DA8770-RTRMADP-3-USA-TRUMP-RUSSIA.JPG",
+            "publishedAt": "2019-03-25T19:09:00Z",
+            "content": "Donald Trump has held a joint press conference with Israeli prime minister Benjamin Netanyahu to sign a proclamation formally recognising Israeli sovereignty over the Golan Heights as the fallout from the Mueller report continues. Attorney-general William Bar… [+8424 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Nzherald.co.nz"
+            },
+            "author": "NZ Herald",
+            "title": "Tarantino actor Michael Madsen arrested for crashing his car - New Zealand Herald",
+            "description": "US actor Michael Madsen was arrested in Malibu for his second DUI in six years.",
+            "url": "https://www.nzherald.co.nz/entertainment/news/article.cfm?c_id=1501119&objectid=12216222",
+            "urlToImage": "https://www.nzherald.co.nz/resizer/J9b4UO-qcciR7VgaPTtDRCtaQJQ=/1200x0/smart/filters:quality(70)/arc-anglerfish-syd-prod-nzme.s3.amazonaws.com/public/AX7IGXN6GVDRTP6RYPQM5XTWOQ.jpg",
+            "publishedAt": "2019-03-25T18:38:58Z",
+            "content": "A veteran actor of 170 movies, many of them by Quentin Tarantino, was put behind bars on the weekend after a shocking crash in which the actor's Land Rover crashed into a pole in the celebrity enclave of Malibu, California. Hollywood actor Michael Madsen, 61,… [+1307 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Standard.co.uk"
+            },
+            "author": "JOE KRISHNAN",
+            "title": "Montenegro vs England, LIVE stream online: Euro 2020 qualifier commentary, TV channel, prediction, lineups - Evening Standard",
+            "description": "Will the Three Lions make it two wins from two?",
+            "url": "https://www.standard.co.uk/sport/football/montenegro-vs-england-live-stream-online-euro-2020-qualifier-commentary-score-tv-prediction-a4100381.html",
+            "urlToImage": "https://static.standard.co.uk/s3fs-public/thumbnails/image/2019/03/25/17/montenegro-england-250319a.jpg",
+            "publishedAt": "2019-03-25T18:33:00Z",
+            "content": "Line-ups Montenegro XI: Petkovic; Stojkovic, Savic, Simic, Tomasevic; Marusic, Ivanic, Vukcevic, Vesovic; Beciraj, Mugosa England XI: Pickford; Walker, Keane, Maguire, Rose; Rice, Barkley, Alli; Hudson-Odoi, Kane, Sterling Montenegro vs England LIVE Euro 2020… [+17255 chars]"
+        },
+        {
+            "source": {
+                "id": "financial-times",
+                "name": "Financial Times"
+            },
+            "author": null,
+            "title": "Apple event: new TV app, credit card, news and gaming services - Financial Times",
+            "description": "Apple sets out services strategy at star-studded event with Oprah Winfrey and Steven Spielberg",
+            "url": "https://www.ft.com/content/102287c2-4f1c-11e9-9c76-bf4a0ce37d49",
+            "urlToImage": "https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fprod-upp-image-read.ft.com%2Fd5e60382-4f29-11e9-8f44-fe4a86c48b33?source=next-opengraph&fit=scale-down&width=900",
+            "publishedAt": "2019-03-25T18:25:00Z",
+            "content": "Apple has unveiled a renewed push into video, finance, news and gaming at its first product launch dedicated to digital services. The press event, held at Apple Park in Cupertino on Monday, marks a departure from the iPhone maker’s longstanding practice of us… [+8642 chars]"
+        },
+        {
+            "source": {
+                "id": "techradar",
+                "name": "TechRadar"
+            },
+            "author": "https://www.facebook.com/TechRadar",
+            "title": "Apple TV+ is the long-awaited video streaming service from Apple - TechRadar",
+            "description": "Apple TV+ is the new video streaming service from Apple",
+            "url": "https://www.techradar.com/news/apple-tv-plus",
+            "urlToImage": "https://cdn.mos.cms.futurecdn.net/aLG9RhdAC6hUznvspMUSVW-1200-80.jpg",
+            "publishedAt": "2019-03-25T18:10:00Z",
+            "content": "At its keynote held this morning Apple announced Apple TV+, a new streaming service from the maker of the iPhone and iPad that, according to its CEO Tim Cook, \"is unlike anything that's come before\". The streaming service will offer exclusive shows, movies an… [+2603 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Theguardian.com"
+            },
+            "author": "Letters",
+            "title": "Will Jeremy Corbyn take the Brexit tide at the flood? | Letters - The Guardian",
+            "description": "Letters: Luke Hendrix says the Labour leadership’s approach is realistic and nuanced, Deborah Fuller says it is better to stay in the EU, and Rory O’Kelly can’t help quoting from Shakespeare’s Julius Caesar",
+            "url": "https://www.theguardian.com/politics/2019/mar/25/will-jeremy-corbyn-take-the-brexit-tide-at-the-flood",
+            "urlToImage": "https://i.guim.co.uk/img/media/a1d5029fa45ef14d82605d0050b4a7bfb1b97c65/428_605_2804_1682/master/2804.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&s=7a0954f77e18d4d8f43569274d53ffcb",
+            "publishedAt": "2019-03-25T17:54:00Z",
+            "content": "David Brough ( Letters, 25 March) makes the mistake of conflating an open and inclusive Britain with membership of the EU. It is quite plausible that a forthcoming Labour government could enact measures that make this country more open and inclusive than the … [+2655 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Itv.com"
+            },
+            "author": null,
+            "title": "Police say girl found dead at hospital was crash victim - ITV News",
+            "description": "Police have said the teenage girl found dead near Belfast City Hospital, named as 17-year-old Tara Wright, was injured in an earlier one-car crash.\n\nThe girl was pronounced dead after being found in a grey coloured MG car just before 3am on Sunday, close to t…",
+            "url": "https://www.itv.com/news/utv/2019-03-25/police-say-girl-found-dead-at-hospital-was-crash-victim/",
+            "urlToImage": "https://news.images.itv.com/image/file/1807740/img.jpg",
+            "publishedAt": "2019-03-25T17:48:00Z",
+            "content": "Police have said the teenage girl found dead near Belfast City Hospital, named as 17-year-old Tara Wright, was injured in an earlier one-car crash. The girl was pronounced dead after being found in a grey coloured MG car just before 3am on Sunday, close to th… [+939 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "https://www.facebook.com/bbcnews",
+            "title": "Trump hints at payback for 'evil' enemies over Mueller report - BBC News",
+            "description": "Mr Trump says the Mueller inquiry, which cleared him of collusion, was based on \"a false narrative\".",
+            "url": "https://www.bbc.co.uk/news/world-us-canada-47699611",
+            "urlToImage": "https://ichef.bbci.co.uk/images/ic/1024x576/p074kdgx.jpg",
+            "publishedAt": "2019-03-25T17:13:10Z",
+            "content": "Media caption Trump on Mueller probe: 'We can never let this happen again' President Donald Trump says his enemies who did \"evil\" and \"treasonous things\" will be under scrutiny after he was absolved of colluding with Russia. Speaking in the Oval Office, he sa… [+2379 chars]"
+        },
+        {
+            "source": {
+                "id": "the-telegraph",
+                "name": "The Telegraph"
+            },
+            "author": null,
+            "title": "FTSE 100 and US stocks extend tumble as recession fears stalk global markets - Telegraph.co.uk",
+            "description": "The FTSE 100 struggled to recover from its worst day of trading in 2019 as fears mount over a global economic slowdown.",
+            "url": "https://www.telegraph.co.uk/business/2019/03/25/asian-shares-plunge-amid-fears-global-economic-slowdown/",
+            "urlToImage": "https://www.telegraph.co.uk/content/dam/business/2018/10/23/TELEMMGLPICT000001169344-xlarge_trans_NvBQzQNjv4BqN2xEdhJkGkU0RkeQQwUrX00xceF-wSgCaBB1oM4wkHY.jpeg",
+            "publishedAt": "2019-03-25T17:10:00Z",
+            "content": "We've noticed you're adblocking. We rely on advertising to help fund our award-winning journalism. We urge you to turn off your ad blocker for The Telegraph website so that you can continue to access our quality content in the future. Thank you for your suppo… [+2 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "https://www.facebook.com/bbcnews",
+            "title": "UB40's Brian Travers diagnosed with brain tumour - BBC News",
+            "description": "The saxophonist will undergo surgery the day he was due to begin touring with the group.",
+            "url": "https://www.bbc.co.uk/news/uk-england-birmingham-47698325",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/C1E5/production/_106173694_mediaitem106173692.jpg",
+            "publishedAt": "2019-03-25T17:09:13Z",
+            "content": "Image caption UB40 begin their latest tour on Friday in Portsmouth UB40 saxophonist Brian Travers has been diagnosed with a brain tumour, forcing him to pull out of the band's 40th anniversary tour. Scans revealed the founder member of the band, which formed … [+1374 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Thetimes.co.uk"
+            },
+            "author": null,
+            "title": "The long and winding road to Brexit - The Times",
+            "description": "If Newcastle was the omen, Sunderland was the evidence, and Birmingham and Manchester the proof. As night turned to dawn in the early hours of Friday, June 24, 2016, Britain awoke to a new...",
+            "url": "https://www.thetimes.co.uk/article/the-long-and-winding-road-to-brexit-s0pmlnf6c",
+            "urlToImage": "http://www.thetimes.co.uk/imageserver/image/methode%2Ftimes%2Fprod%2Fweb%2Fbin%2Fb9fc1ec6-4f25-11e9-ab3c-aad12815c817.jpg?crop=3334%2C1875%2C0%2C0",
+            "publishedAt": "2019-03-25T17:00:00Z",
+            "content": "If Newcastle was the omen, Sunderland was the evidence, and Birmingham and Manchester the proof. As night turned to dawn in the early hours of Friday, June 24, 2016, Britain awoke to a new political reality that few had predicted and, more importantly, no one… [+571 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Digitalspy.com"
+            },
+            "author": "Ian Sandwell",
+            "title": "Us movie unanswered questions - Us movie theories - DigitalSpy.com",
+            "description": "From rabbits to travel plans.",
+            "url": "https://www.digitalspy.com/movies/a26926725/us-movie-explained-theories-questions/",
+            "urlToImage": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/us-1-1550250337.jpg?crop=1xw:0.5xh;center,top&resize=1200:*",
+            "publishedAt": "2019-03-25T17:00:00Z",
+            "content": "We really liked Jordan Peele's Us and have enjoyed delving into the movie's many mysteries, but there's no doubt there are plenty of questions that only Peele himself could answer. Talking to Digital Spy, the writer/director admitted that, like with his first… [+7608 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Thetimes.co.uk"
+            },
+            "author": null,
+            "title": "Crack cocaine delivered faster than pizza is drug of choice for young - The Times",
+            "description": "Professionals and students are increasingly using crack cocaine as dealers deliver it faster than a pizza, according to a joint government report. Researchers were told that the drug was becoming...",
+            "url": "https://www.thetimes.co.uk/article/crack-cocaine-delivered-faster-than-pizza-is-drug-of-choice-for-young-dlvfb8508",
+            "urlToImage": "http://www.thetimes.co.uk/imageserver/image/methode%2Ftimes%2Fprod%2Fweb%2Fbin%2F9e484baa-4f11-11e9-ab3c-aad12815c817.jpg?crop=5119%2C2880%2C0%2C267",
+            "publishedAt": "2019-03-25T17:00:00Z",
+            "content": "Professionals and students are increasingly using crack cocaine as dealers deliver it faster than a pizza, according to a joint government report. Researchers were told that the drug was becoming fashionable among people who would not previously have used the… [+515 chars]"
+        },
+        {
+            "source": {
+                "id": "daily-mail",
+                "name": "Daily Mail"
+            },
+            "author": "https://www.facebook.com/DailyMail",
+            "title": "What toxic chemicals lurk in your bathroom cabinet? - Daily Mail",
+            "description": "EXCLUSIVE Dr Anna Pollack, assistant professor of epidemiology at George Mason University, warns even low amounts of chemicals in our everyday products can cause significant damage.",
+            "url": "https://www.dailymail.co.uk/health/article-6463981/What-toxic-chemicals-lurk-bathroom-cabinet.html",
+            "urlToImage": "https://i.dailymail.co.uk/1s/2018/12/21/10/7696820-0-image-a-9_1545386757519.jpg",
+            "publishedAt": "2019-03-25T16:20:00Z",
+            "content": "Washing your hair to look your best for a big meeting or putting on blusher to hide a heavy night is something countless women do every day. But many may be unaware of the dangerous ingredients lurking within their make-up, skin care and hygiene products. Gro… [+10787 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "https://www.facebook.com/bbcnews",
+            "title": "BA flight lands in Edinburgh instead of Düsseldorf by mistake - BBC News",
+            "description": "The mistake only became apparent when the \"welcome to Edinburgh\" announcement was made.",
+            "url": "https://www.bbc.co.uk/news/business-47691478",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/8667/production/_106170443_untitled-1-01.jpg",
+            "publishedAt": "2019-03-25T16:18:45Z",
+            "content": "Image copyright Getty Images Image caption Edinburgh or Düsseldorf? Spot the difference A British Airways flight destined for Düsseldorf in Germany has landed in Edinburgh by mistake, after the flight paperwork was submitted incorrectly. The passengers only r… [+3589 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Nature.com"
+            },
+            "author": null,
+            "title": "Fresh look at Apollo Moon rocks reveals Solar System secrets - Nature.com",
+            "description": "The discoveries could guide a new era of lunar exploration.",
+            "url": "https://www.nature.com/articles/d41586-019-00963-8",
+            "urlToImage": "https://media.nature.com/lw1024/magazine-assets/d41586-019-00963-8/d41586-019-00963-8_16565984.jpg",
+            "publishedAt": "2019-03-25T15:44:40Z",
+            "content": "NASA's Apollo 17 mission to the Moon collected rock samples that scientists hope to unseal for study in the coming year. Credit: NASA The Woodlands, Texas At some point in the coming year, curators at NASAs Johnson Space Center in Houston, Texas, will don pro… [+4924 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Teamtalk.com"
+            },
+            "author": null,
+            "title": "Chelsea man says there is a blanket ban on summer departures - Teamtalk.com",
+            "description": "Out-of-favour defender Andreas Christensen says Chelsea will not sell any players this summer.",
+            "url": "https://www.teamtalk.com/news/chelsea-man-says-there-is-a-blanket-ban-on-summer-departures",
+            "urlToImage": "https://d3vlf99qeg6bpx.cloudfront.net/content/uploads/2018/11/13155517/GettyImages.1012781102.jpg",
+            "publishedAt": "2019-03-25T15:30:21Z",
+            "content": "Out-of-favour defender Andreas Christensen says Chelsea will not sell any players this summer. The Danish centre-back has said he has been told by the club that they will not be selling players as they appeal against the transfer ban imposed by FIFA. Last mon… [+1399 chars]"
+        },
+        {
+            "source": {
+                "id": "techradar",
+                "name": "TechRadar"
+            },
+            "author": "https://www.facebook.com/TechRadar",
+            "title": "Over a million Asus laptops could have been hacked - TechRadar",
+            "description": "So claims Kaspersky, with malware being delivered by Asus’ own update utility",
+            "url": "https://www.techradar.com/news/over-a-million-asus-laptops-could-have-been-hacked",
+            "urlToImage": "https://cdn.mos.cms.futurecdn.net/gFCARnPMAsABywYVWsrujK-1200-80.jpg",
+            "publishedAt": "2019-03-25T15:25:00Z",
+            "content": "It appears that Asus is in some hot water after being compromised by hackers, who have hijacked the laptop maker’s update service to push malicious software onto Asus devices. This is according to security firm Kaspersky, who wrote a blog post describing how … [+2116 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Heraldscotland.com"
+            },
+            "author": "HeraldScotland Staff",
+            "title": "Obituary: Scott Walker, singer-songwriter who turned his back on pop - HeraldScotland",
+            "description": "Singer-songwriter who turned his back on pop",
+            "url": "https://www.heraldscotland.com/opinion/17525565.obituary-scott-walker-singer-songwriter-who-turned-his-back-on-pop/",
+            "urlToImage": "https://www.heraldscotland.com/resources/images/9618969/",
+            "publishedAt": "2019-03-25T15:04:09Z",
+            "content": "Died: March 25, 2019 SCOTT Walker, who has died aged 76, was a handsome and moody pop star in the mid-1960s who had a string of hits with the Walker Brothers, including the chart-toppers The Sun Ain’t Gonna Shine Anymore and Make It Easy on Yourself, and a fa… [+5452 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Theguardian.com"
+            },
+            "author": "Ian Sample",
+            "title": "Hopes rise for male contraceptive pill breakthrough | Science - The Guardian",
+            "description": "Trial of once-daily capsule appeared to reduce sperm count with few side-effects",
+            "url": "https://www.theguardian.com/science/2019/mar/25/hopes-rise-male-contraceptive-pill-breakthrough-side-effects",
+            "urlToImage": "https://i.guim.co.uk/img/media/1fb68899c202d33b50b6ef52b8f1e79eba852350/0_38_6443_3865/master/6443.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&s=e3f69dcde37ecd06e83314a1ea8e5235",
+            "publishedAt": "2019-03-25T15:00:00Z",
+            "content": "Hopes for a male contraceptive pill have increased after a trial showed a once-daily capsule appeared to work with no significant side-effects. The drug aims to suppress levels of hormones that drive the production of sperm and testosterone in the testes. In … [+3096 chars]"
+        },
+        {
+            "source": {
+                "id": "independent",
+                "name": "Independent"
+            },
+            "author": "Tom Parfitt",
+            "title": "UK weather forecast: Britain to bask in sun as temperatures hit 17C, Met Office says - The Independent",
+            "description": "Warm and sunny spells expected as band of high pressure arrives",
+            "url": "https://www.independent.co.uk/news/uk/home-news/uk-weather-forecast-met-office-latest-heatwave-spring-a8838296.html",
+            "urlToImage": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/03/25/08/uk-weather.jpg",
+            "publishedAt": "2019-03-25T14:49:00Z",
+            "content": "Britain is set to bask in spring sunshine this week with temperatures expected to reach 17C, according to the Met Office. A band of high pressure will bring balmy conditions up to 5C above average for the time of the year. The pleasant, dry weather follows a … [+2902 chars]"
+        },
+        {
+            "source": {
+                "id": "mirror",
+                "name": "Mirror"
+            },
+            "author": "Milo Boyd",
+            "title": "Mars rover 'takes photos of MUSHROOMS growing on surface of Red Planet' - Mirror Online",
+            "description": "A new study argues NASA's Mars Curiosity Rover photographed mushrooms on the planet's surface - but not all scientists are convinced",
+            "url": "https://www.mirror.co.uk/news/world-news/mars-rover-takes-photos-mushrooms-14183591",
+            "urlToImage": "https://i2-prod.mirror.co.uk/incoming/article14183514.ece/ALTERNATES/s1200/1_Drudge-Shock-claims-that-mushrooms-spotted-byMars-Curiosity-Rover-photos-on-Red-Planet.jpg",
+            "publishedAt": "2019-03-25T14:48:00Z",
+            "content": "New photographs of 'Martian mushrooms' have left some scientists convinced that there is life on the Red Planet. A new study published in the Journal of Astrobiology builds upon 15 images captured by NASA's Curiosity Rover. As part of its two-year mission, Cu… [+2010 chars]"
+        },
+        {
+            "source": {
+                "id": "daily-mail",
+                "name": "Daily Mail"
+            },
+            "author": "https://www.facebook.com/DailyMail",
+            "title": "AI app transforms black and white photos into colour - Daily Mail",
+            "description": "AI app transforms black and white photos into colour. The idea of ColouriseSG was initially to provide a large enough data-set to be relevant to the residents of Singapore.",
+            "url": "https://www.dailymail.co.uk/sciencetech/article-6847031/AI-app-transforms-black-white-photos-colour.html",
+            "urlToImage": "https://i.dailymail.co.uk/1s/2019/03/25/14/11429944-0-image-a-224_1553524154561.jpg",
+            "publishedAt": "2019-03-25T12:33:00Z",
+            "content": "An online tool has been unveiled which is capable of bringing black and white photographs to life instantaneously by adding colour to them using artificial intelligence. Colourisation of old images is a normally time consuming process which requires specialis… [+3434 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Thetimes.co.uk"
+            },
+            "author": null,
+            "title": "Technology could eliminate 1.5m jobs in UK | Business - The Times",
+            "description": "Nearly 1.5 million jobs in England are at a high risk of automation, according to the Office for National Statistics, with female-dominated occupations most vulnerable to changes in technology. An...",
+            "url": "https://www.thetimes.co.uk/article/technology-could-eliminate-1-5m-jobs-in-uk-8ndlr9ts2",
+            "urlToImage": "http://www.thetimes.co.uk/imageserver/image/methode%2Ftimes%2Fprod%2Fweb%2Fbin%2Fee0e6a90-4ef1-11e9-a278-59bc5c47bf2d.jpg?crop=4327%2C2434%2C0%2C225",
+            "publishedAt": "2019-03-25T12:00:00Z",
+            "content": "Nearly 1.5 million jobs in England are at a high risk of automation, according to the Office for National Statistics, with female-dominated occupations most vulnerable to changes in technology. An analysis of 20 million jobs in England found that 7.4 per cent… [+504 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Nature.com"
+            },
+            "author": null,
+            "title": "The joy of stats - Nature.com",
+            "description": "Evelyn Lamb enjoys a rich study on number-crunching and its ubiquitous fruit.",
+            "url": "https://www.nature.com/articles/d41586-019-00898-0",
+            "urlToImage": "https://media.nature.com/lw1024/magazine-assets/d41586-019-00898-0/d41586-019-00898-0_16562860.jpg",
+            "publishedAt": "2019-03-25T11:17:20Z",
+            "content": "Tracking data can be baffling without a thorough knowledge of statistical approaches. Credit: solarseven/Getty The Art of Statistics: Learning from Data David Spiegelhalter Pelican (2019) The aphorism All models are wrong, but some are useful, attributed to s… [+5024 chars]"
+        },
+        {
+            "source": {
+                "id": "daily-mail",
+                "name": "Daily Mail"
+            },
+            "author": "https://www.facebook.com/DailyMail",
+            "title": "New Zealand Prime Minister Jacinda Ardern said wearing a hijab was an 'obvious decision' - Daily Mail",
+            "description": "The New Zealand leader appeared in an emotional interview with host Waleed Aly on The Project on Monday night where she spoke of her decision to wear a hijab while meeting with families of victims.",
+            "url": "https://www.dailymail.co.uk/news/article-6846915/New-Zealand-Prime-Minister-Jacinda-Ardern-said-wearing-hijab-obvious-decision.html",
+            "urlToImage": "https://i.dailymail.co.uk/1s/2019/03/25/10/11421556-0-image-a-8_1553509546729.jpg",
+            "publishedAt": "2019-03-25T11:07:00Z",
+            "content": "New Zealand Prime Minister Jacinda Ardern has spoken about her decision to wear a hijab in solidarity with the Muslim community in the wake of the Christchurch shooting. The New Zealand leader appeared in an emotional interview with host Waleed Aly on The Pro… [+4140 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "https://www.facebook.com/bbcnews",
+            "title": "MPs debate Brexit next steps - bbc.co.uk",
+            "description": "Updates as MPs debate a government motion on Brexit.",
+            "url": "https://www.bbc.co.uk/news/live/uk-politics-parliaments-47696409",
+            "urlToImage": "https://c.files.bbci.co.uk/17595/production/_106173659_newmaypic.jpg",
+            "publishedAt": "2019-03-25T10:59:00Z",
+            "content": "Speaker John Bercow has announced he has provisionally selected the following three amendments to the governments motion to be debated this afternoon: Amendment (d) Labour frontbench Calls on the government to provide sufficient parliamentary time this week f… [+1009 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "90min.com"
+            },
+            "author": "Jack Spedding",
+            "title": "Ronald Koeman Reveals Who Is to Blame for Netherlands' Last Minute Loss Against Germany - 90min",
+            "description": "",
+            "url": "https://www.90min.com/posts/6327954-ronald-koeman-reveals-who-is-to-blame-for-netherlands-last-minute-loss-against-germany",
+            "urlToImage": "https://images2.minutemediacdn.com/image/upload/c_fill,w_1200,h_630,f_auto,q_auto,g_auto/shape/cover/sport/germany-v-netherlands-uefa-nations-league-a-5c981df59b5f281da3000001.jpg",
+            "publishedAt": "2019-03-25T09:48:56Z",
+            "content": "Netherlands manager Ronald Koeman has admitted that his side should have taken at least a point in their Euro 2020 qualifier against Germany, and has placed the blame on himself for their defeat. The Dutch were 2-0 down at half time after a disappointing firs… [+1933 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Thetimes.co.uk"
+            },
+            "author": null,
+            "title": "How many Tories does it take to change the leader? - The Times",
+            "description": "What is it about Tories and the exit door? They say they want to find a way out but spend their whole time banging their head against the nearest wall instead. Having proved themselves so adept at...",
+            "url": "https://www.thetimes.co.uk/article/how-many-tories-does-it-take-to-change-the-leader-2q7phb3nv",
+            "urlToImage": "http://www.thetimes.co.uk/imageserver/image/methode%2Ftimes%2Fprod%2Fweb%2Fbin%2F55730bf6-4ed8-11e9-ab3c-aad12815c817.jpg?crop=1500%2C844%2C0%2C78",
+            "publishedAt": "2019-03-25T09:00:00Z",
+            "content": "What is it about Tories and the exit door? They say they want to find a way out but spend their whole time banging their head against the nearest wall instead. Having proved themselves so adept at getting Britain out of the EU, over the weekend they turned th… [+424 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Thisismoney.co.uk"
+            },
+            "author": "https://www.dailymail.co.uk/home/search.html?s=&authornamef=This+Is+Money",
+            "title": "FTSE LIVE: Majestic Wine to close raft of shops - This is Money",
+            "description": "The FTSE 100 closed down 30 points, or 0.4 per cent, at 7,177.58 as investors remain concerned about the strength of the global economy.",
+            "url": "https://www.thisismoney.co.uk/money/markets/article-6846631/FTSE-LIVE-Majestic-Wine-close-raft-shops-Ashleys-Sports-Direct-hits-Debenhams.html",
+            "urlToImage": "https://i.dailymail.co.uk/i/newpix/2019/03/25/08/06D01CA4000007D0-0-image-a-17_1553502004342.jpg",
+            "publishedAt": "2019-03-25T08:18:00Z",
+            "content": "Neil Wilson at Markets.com outlines the state of play as we start the week- “European markets are taking their orders from the US selloff on Wall Street on Friday, with a sea of red across the board on Monday. \"Investors should be prepared for a tough week as… [+1507 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Itv.com"
+            },
+            "author": null,
+            "title": "Smacking ban legislation announced in Wales - ITV News - ITV News",
+            "description": "New legislation which would ban adults from being able to smack their children has been introduced in Wales.\n\nThe Welsh Government wants to remove the common law defence of reasonable punishment which is currently available to parental figures if accused of a…",
+            "url": "https://www.itv.com/news/2019-03-25/smacking-ban-legislation-announced-in-wales/",
+            "urlToImage": "https://news.images.itv.com/image/file/1807125/img.jpg",
+            "publishedAt": "2019-03-25T08:17:00Z",
+            "content": "New legislation which would ban adults from being able to smack their children has been introduced in Wales. The Welsh Government wants to remove the common law defence of reasonable punishment which is currently available to parental figures if accused of as… [+3500 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Theguardian.com"
+            },
+            "author": "Charlotte Church",
+            "title": "Charlotte Church: 'Spring is here – and every morning I go forest bathing' - The Guardian",
+            "description": "Shinrin-yoku, an immersion in nature, is regularly ridiculed. But until you’ve tried it, you cannot know just how powerfully restorative time in the woods can be",
+            "url": "https://www.theguardian.com/lifeandstyle/2019/mar/25/charlotte-church-spring-every-morning-i-go-forest-bathing",
+            "urlToImage": "https://i.guim.co.uk/img/media/f45d5ffde0f5e6810f38300694bb50b8147da5ad/0_0_5000_3000/master/5000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&s=656d870afdd77f4360d3d216d383ed48",
+            "publishedAt": "2019-03-25T07:00:00Z",
+            "content": "A t this time of year, the sun rises a little after 6am. My alarm goes off half an hour before. Without disturbing my sleeping babies, I smuggle myself downstairs, fix a flask of tea and, booted and scarfed, head out into the dewy darkness for the forest. Thr… [+3570 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Sky.com"
+            },
+            "author": "Sky",
+            "title": "Pro-military party's surprise lead in Thai election, partial results show - Sky News",
+            "description": "Thailand could now face several weeks of haggling among political parties before a potentially unstable coalition is formed.",
+            "url": "https://news.sky.com/story/polls-open-for-thailands-first-election-since-military-coup-11673888",
+            "urlToImage": "https://e3.365dm.com/19/03/1600x900/skynews-thailand-elections_4618441.jpg?20190325021447",
+            "publishedAt": "2019-03-25T01:43:35Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Thetimes.co.uk"
+            },
+            "author": null,
+            "title": "Viking Sky: Britons tell of terrifying airlift from stricken cruise liner - The Times",
+            "description": "British passengers described the ordeal yesterday of being winched up to helicopters from a stricken cruise ship in howling wind and heaving seas on a treacherous stretch of Norwegian coast. They...",
+            "url": "https://www.thetimes.co.uk/article/britons-tell-of-terrifying-airlift-from-stricken-liner-0l695sgxx",
+            "urlToImage": "/d/img/dual-masthead-placeholder-16x9-6a9822c61a.png",
+            "publishedAt": "2019-03-25T00:01:00Z",
+            "content": "British passengers described the ordeal yesterday of being winched up to helicopters from a stricken cruise ship in howling wind and heaving seas on a treacherous stretch of Norwegian coast. They were among 475 people airlifted to safety one by one from the V… [+534 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Dailyrecord.co.uk"
+            },
+            "author": "Rosie Hopegood",
+            "title": "The new 5:2 diet that lets you eat more but still lose weight - Scottish Daily Record",
+            "description": "In 2013, Dr Michael Mosley introduced the 5:2 diet, a weight loss regime that involves cutting back to 500 calories for two days a week. Now, he’s revamped the diet in his new book The Fast 800, which claims you can still lose weight by eating 800 calories on…",
+            "url": "https://www.dailyrecord.co.uk/lifestyle/health-fitness/new-52-diet-lets-you-14164247",
+            "urlToImage": "https://i2-prod.mirror.co.uk/incoming/article14164327.ece/ALTERNATES/s1200/0_Excited-Caucasian-woman-cheering-on-weight-scale.jpg",
+            "publishedAt": "2019-03-24T07:00:00Z",
+            "content": "If you tried the 5:2 fasting diet and struggled with hunger pangs on the two fasting days, this could be the diet for you. Here's how you can eat more but still lose weight Why 800 calories? Eating 800 calories instead of 500 and still reaping the rewards sou… [+4794 chars]"
+        }
+    ]
+}
