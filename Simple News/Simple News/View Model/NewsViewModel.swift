@@ -28,7 +28,7 @@ protocol NewsViewModelProtocol {
 
 struct NewsViewModel: NewsViewModelProtocol {
     let service: NewsServiceProtocol
-    var news: Dynamic<News?> = Dynamic(nil)
+    let news: Dynamic<News?> = Dynamic(nil)
     
     init(service: NewsServiceProtocol = NewsService.shared) {
         self.service = service
