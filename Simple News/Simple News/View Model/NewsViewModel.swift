@@ -23,7 +23,7 @@ protocol NewsViewModelProtocol {
     var news: Dynamic<News?> { get }
     var articles: [Article]? { get }
     
-    func getNewsArticles(forAPI api:String)
+    func fetchNewsArticles(forAPI api:String)
 }
 
 struct NewsViewModel: NewsViewModelProtocol {
@@ -56,18 +56,19 @@ struct NewsViewModel: NewsViewModelProtocol {
         case TabBarScreen.Science.rawValue:
             return API_SCIENCE_URL
         default:
+            assertionFailure("Wrong API Definition")
             return API_TOP_HEADLINES_URL
         }
     }
     
-    func setEmptyTableViewMessage(tableView: UITableView) {        
+    func setEmptyTableViewMessage(tableView: UITableView?) {        
         news.value?.articles?.count == 0 ?
-            tableView.setEmptyMessage(EMPTY_TABLE_MESSAGE) :
-            tableView.restore()
+            tableView?.setEmptyMessage(EMPTY_TABLE_MESSAGE) :
+            tableView?.restore()
     }
     
-    func getNewsArticles(forAPI api:String) {
-        service.getNewsArticles(forAPI: api, completionHandler: { news, error in
+    func fetchNewsArticles(forAPI api:String) {
+        service.fetchNewsArticles(forAPI: api, completionHandler: { news, error in
             self.news.value = news
         })
     }

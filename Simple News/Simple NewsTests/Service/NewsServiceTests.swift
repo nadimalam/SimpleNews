@@ -39,7 +39,7 @@ class NewsServiceTests: XCTestCase {
         
         session.data = data
         
-        newsService.getNewsArticles(forAPI: API_TOP_HEADLINES_URL, completionHandler: { news, error in
+        newsService.fetchNewsArticles(forAPI: API_TOP_HEADLINES_URL, completionHandler: { news, error in
             self.news = news
             self.parsingError = error
             self.signalExpectation?.fulfill()
@@ -53,7 +53,7 @@ class NewsServiceTests: XCTestCase {
     
     func testWhenResponseDataIsNilReturnsError() {
         
-        newsService.getNewsArticles(forAPI: API_TOP_HEADLINES_URL, completionHandler: { news, error in
+        newsService.fetchNewsArticles(forAPI: API_TOP_HEADLINES_URL, completionHandler: { news, error in
             self.news = news
             self.parsingError = error
             self.signalExpectation?.fulfill()
@@ -68,7 +68,7 @@ class NewsServiceTests: XCTestCase {
     func testWhenURLIsInvalidReturnsError() {
         
         let FAKE_API_URL = "Invalid URL"
-        newsService.getNewsArticles(forAPI: FAKE_API_URL, completionHandler: { news, error in
+        newsService.fetchNewsArticles(forAPI: FAKE_API_URL, completionHandler: { news, error in
             self.news = news
             self.parsingError = error
             self.signalExpectation?.fulfill()

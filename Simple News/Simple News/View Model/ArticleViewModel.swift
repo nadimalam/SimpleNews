@@ -17,42 +17,42 @@ struct ArticleViewModel {
     }
     
     var title: String {
-        if let title = article?.title {
-            return title
+        guard let title = article?.title else {
+            return ""
         }
-        return ""
+        return title
     }
     
     var description: String {
-        if let description = article?.description {
-            return description
+        guard let description = article?.description else {
+            return ""
         }
-        return ""
+        return description
     }
     
     var sourceName: String {
-        if let sourceName = article?.source?.name {
-            return sourceName
+        guard let sourceName = article?.source?.name else {
+            return ""
         }
-        return ""
+        return sourceName
     }
     
     // Calculate and display the article date.
     var publishedDate: String {
-        if let publishedDate = article?.publishedAt {
-            return convertDate(publishedDate: publishedDate)
+        guard let publishedDate = article?.publishedAt else {
+            return "No Date"
         }
-        return "No Date"
+        return convertDate(publishedDate: publishedDate)
     }
     
     var imageURL: String {
-        if let imageURL = article?.urlToImage {
-            return imageURL
+        guard let imageURL = article?.urlToImage else {
+            return "default-news"
         }
-        return "default-news"
+        return imageURL
     }
     
-    func convertDate(publishedDate: String) -> String {
+    private func convertDate(publishedDate: String) -> String {
         // Converts string to date format with extension
         let date = Date.FromString(publishedDate)
         

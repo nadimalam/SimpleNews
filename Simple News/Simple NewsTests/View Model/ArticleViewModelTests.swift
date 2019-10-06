@@ -15,7 +15,7 @@ class ArticleViewModelTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
-        viewModel = ArticleViewModel(article: Article.fakeArticle())
+        viewModel = ArticleViewModel(article: Article.mockArticle())
     }
     
     override func tearDown() {

@@ -25,12 +25,12 @@ class NewsViewModelTests: XCTestCase {
     
     func testGetNewsReturnsNews() {
         
-        newsService.getNewsMock = News.fakeNews()
+        newsService.getNewsMock = News.mockNews()
         
         let viewModel = NewsViewModel(service: newsService)
-        viewModel.getNewsArticles(forAPI: API_TOP_HEADLINES_URL)
+        viewModel.fetchNewsArticles(forAPI: API_TOP_HEADLINES_URL)
         
-        newsService.getNewsArticles(forAPI: API_TOP_HEADLINES_URL, completionHandler: { (news, error) in
+        newsService.fetchNewsArticles(forAPI: API_TOP_HEADLINES_URL, completionHandler: { (news, error) in
             XCTAssertNotNil(news, "News should be not nil")
             XCTAssertNil(error, "Error is nil when we get news data")                        
         })

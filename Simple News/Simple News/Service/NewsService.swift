@@ -15,7 +15,7 @@ enum RequestError: Swift.Error {
 }
 
 protocol NewsServiceProtocol {
-    func getNewsArticles(forAPI api:String, completionHandler: @escaping (News?, RequestError?) -> Void)
+    func fetchNewsArticles(forAPI api:String, completionHandler: @escaping (News?, RequestError?) -> Void)
 }
 
 class NewsService: NewsServiceProtocol {
@@ -26,7 +26,7 @@ class NewsService: NewsServiceProtocol {
         self.session = session
     }
     
-    func getNewsArticles(forAPI api:String, completionHandler: @escaping (News?, RequestError?) -> Void) {
+    func fetchNewsArticles(forAPI api:String, completionHandler: @escaping (News?, RequestError?) -> Void) {
         
         // Display the activity indicator when trying to fetch data.
         shouldShowActivityIndicator(true)

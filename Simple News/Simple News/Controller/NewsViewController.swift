@@ -10,7 +10,7 @@ import UIKit
 
 class NewsViewController: UIViewController {
 
-    @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var tableView: UITableView?
     
     private let viewModel = NewsViewModel()
     private let refreshControl = UIRefreshControl()
@@ -23,7 +23,7 @@ class NewsViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        getNewsArticles()
+        fetchNewsArticles()
     }
     
     private func bind() {
@@ -32,26 +32,26 @@ class NewsViewController: UIViewController {
                 //Handle error
                 return
             }
-            self.tableView.reloadData()
+            self.tableView?.reloadData()
         }
     }
     
     func setupRefreshControl() {
-        self.tableView.refreshControl = refreshControl
-        self.tableView.refreshControl?.addTarget(self, action: #selector(refresh), for: UIControl.Event.valueChanged)
-        self.tableView.refreshControl?.tintColor = UIColor.blue
-        self.tableView.refreshControl?.attributedTitle = NSAttributedString(string: "Pull to Refresh")
+        self.tableView?.refreshControl = refreshControl
+        self.tableView?.refreshControl?.addTarget(self, action: #selector(refresh), for: UIControl.Event.valueChanged)
+        self.tableView?.refreshControl?.tintColor = UIColor.blue
+        self.tableView?.refreshControl?.attributedTitle = NSAttributedString(string: "Pull to Refresh")
     }
     
     @objc func refresh(refreshControl: UIRefreshControl) {
         // Update the data
-        getNewsArticles()
-        self.tableView.refreshControl?.endRefreshing()
+        fetchNewsArticles()
+        self.tableView?.refreshControl?.endRefreshing()
     }
     
-    private func getNewsArticles() {
+    private func fetchNewsArticles() {
         if let tabBarIndex = self.tabBarController?.selectedIndex {
-            viewModel.getNewsArticles(forAPI: viewModel.getApiForTabIndex(tabBarIndex))
+            viewModel.fetchNewsArticles(forAPI: viewModel.getApiForTabIndex(tabBarIndex))
         }
     }
 }
@@ -82,6 +82,6 @@ extension NewsViewController: UITableViewDataSource {
 
 extension NewsViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        self.tableView.deselectRow(at: indexPath, animated: true)
+        self.tableView?.deselectRow(at: indexPath, animated: true)
     }
 }

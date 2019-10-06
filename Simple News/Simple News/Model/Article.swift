@@ -8,12 +8,7 @@
 
 import Foundation
 
-struct Source: Decodable {
-    let id: String?
-    let name: String?
-}
-
-struct Article: Decodable {
+struct Article: Codable {
     let source: Source?
     let author: String?
     let title: String?
@@ -22,11 +17,16 @@ struct Article: Decodable {
     let urlToImage: String?
     let publishedAt: String?
     let content: String?
+    
+    struct Source: Codable {
+        let id: String?
+        let name: String?
+    }
 }
 
 extension Article {
-    static func fakeArticle() -> Article {
-        let article = Article(source: Source.fakeSource(),
+    static func mockArticle() -> Article {
+        let article = Article(source: Article.Source.mockSource(),
                               author: "Joanna S Freedman",
                               title: "Scarlett Moffatt finds love with hunky policeman",
                               description: "Gogglebox favourite Scarlett Moffatt has finally found love again with a handsome policeman named Scott Dobinson",
@@ -38,9 +38,9 @@ extension Article {
     }
 }
 
-extension Source {
-    static func fakeSource() -> Source {
-        let source = Source(id: "bbc-news",
+extension Article.Source {
+    static func mockSource() -> Article.Source {
+        let source = Article.Source(id: "bbc-news",
                             name: "BBC News")
         return source
     }

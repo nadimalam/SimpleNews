@@ -8,17 +8,17 @@
 
 import Foundation
 
-struct News: Decodable {
+struct News: Codable {
     let status: String?
     let totalResults: Int?
     let articles: [Article]?
 }
 
 extension News {
-    static func fakeNews() -> News {
+    static func mockNews() -> News {
         let news = News(status: "ok",
                         totalResults: 1,
-                        articles: [Article.fakeArticle()])
+                        articles: [Article.mockArticle()])
         return news
     }
 }

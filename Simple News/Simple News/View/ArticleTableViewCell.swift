@@ -13,11 +13,11 @@ class ArticleTableViewCell: UITableViewCell {
     static var cellIdentifier: String = "ArticleTableViewCell"
     
     //MARK: - IBOutlet
-    @IBOutlet weak var titleLabel: UILabel!
-    @IBOutlet weak var descriptionLabel: UILabel!
-    @IBOutlet weak var dateLabel: UILabel!
-    @IBOutlet weak var sourceLabel: UILabel!
-    @IBOutlet weak var articleImageView: UIImageView!
+    @IBOutlet private var titleLabel: UILabel?
+    @IBOutlet private var descriptionLabel: UILabel?
+    @IBOutlet private var dateLabel: UILabel?
+    @IBOutlet private var sourceLabel: UILabel?
+    @IBOutlet private var articleImageView: UIImageView?
     
     var viewModel: ArticleViewModel? {
         didSet {
@@ -29,12 +29,12 @@ class ArticleTableViewCell: UITableViewCell {
         guard let viewModel = viewModel else {
             return
         }
-        self.titleLabel.text = viewModel.title
-        self.descriptionLabel.text = viewModel.description
-        self.sourceLabel.text = viewModel.sourceName
-        self.dateLabel.text = viewModel.publishedDate
+        self.titleLabel?.text = viewModel.title
+        self.descriptionLabel?.text = viewModel.description
+        self.sourceLabel?.text = viewModel.sourceName
+        self.dateLabel?.text = viewModel.publishedDate
         
         // Download and set the image.
-        self.articleImageView.imageFromServerURL(viewModel.imageURL, placeHolder: UIImage(named: "default-news"))
+        self.articleImageView?.imageFromServerURL(viewModel.imageURL, placeHolder: UIImage(named: "default-news"))
     }
 }
