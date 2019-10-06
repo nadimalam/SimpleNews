@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		088D9539234A6AC600E18D49 /* NewsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088D9538234A6AC600E18D49 /* NewsDetailViewController.swift */; };
+		088D953B234A6C5900E18D49 /* NewsDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 088D953A234A6C5900E18D49 /* NewsDetailViewController.xib */; };
 		089C62DF22469889004F00F0 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089C62DE22469889004F00F0 /* UIImageView+Extension.swift */; };
 		08AAA93F22472D7700F64833 /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AAA93E22472D7700F64833 /* ArticleViewModel.swift */; };
 		08AAA94322481F0F00F64833 /* Fixture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AAA94222481F0F00F64833 /* Fixture.swift */; };
@@ -53,6 +55,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		088D9538234A6AC600E18D49 /* NewsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailViewController.swift; sourceTree = "<group>"; };
+		088D953A234A6C5900E18D49 /* NewsDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsDetailViewController.xib; sourceTree = "<group>"; };
 		089C62DE22469889004F00F0 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 		08AAA93E22472D7700F64833 /* ArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
 		08AAA94222481F0F00F64833 /* Fixture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fixture.swift; sourceTree = "<group>"; };
@@ -202,6 +206,7 @@
 			isa = PBXGroup;
 			children = (
 				2287B2F3223FB93600357426 /* NewsViewController.swift */,
+				088D9538234A6AC600E18D49 /* NewsDetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -211,6 +216,7 @@
 			children = (
 				2287B2F5223FB93600357426 /* Main.storyboard */,
 				2287B336223FDF9200357426 /* ArticleTableViewCell.swift */,
+				088D953A234A6C5900E18D49 /* NewsDetailViewController.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -374,6 +380,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				088D953B234A6C5900E18D49 /* NewsDetailViewController.xib in Resources */,
 				2287B2FC223FB93900357426 /* LaunchScreen.storyboard in Resources */,
 				2287B2F9223FB93900357426 /* Assets.xcassets in Resources */,
 				2287B2F7223FB93600357426 /* Main.storyboard in Resources */,
@@ -411,6 +418,7 @@
 				2287B335223FDE9600357426 /* Dynamic.swift in Sources */,
 				2287B33E224002D300357426 /* Date+Extension.swift in Sources */,
 				2287B2F2223FB93600357426 /* AppDelegate.swift in Sources */,
+				088D9539234A6AC600E18D49 /* NewsDetailViewController.swift in Sources */,
 				2287B339223FE0C300357426 /* Utils.swift in Sources */,
 				2287B329223FC4E800357426 /* NewsService.swift in Sources */,
 				2287B323223FBBFF00357426 /* Constants.swift in Sources */,
