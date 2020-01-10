@@ -16,7 +16,7 @@ class NewsServiceMock: NewsServiceProtocol {
     var errorMock: RequestError? = nil
     var getNewsMock: News? = nil
     
-    func fetchNewsArticles(forAPI api: String, completionHandler: @escaping (News?, RequestError?) -> Void) {
+    func fetchNewsArticles(for newsType: NewsType, completionHandler: @escaping (News?, RequestError?) -> Void) {
         completionHandler(getNewsMock, errorMock)
     }
 }

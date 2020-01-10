@@ -23,20 +23,25 @@ class NewsViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        fetchNewsArticles()
+        self.fetchNewsArticles()
     }
     
     private func bind() {
-        viewModel.news.bind { [unowned self] news in
+        self.viewModel.news.bind { [unowned self] news in
             guard let _ = news else {
                 //Handle error
                 return
             }
             self.tableView?.reloadData()
+            self.shouldShowActivityIndicator(false)
         }
     }
     
-    func setupRefreshControl() {
+    private func shouldShowActivityIndicator(_ show: Bool) {
+        UIApplication.shared.isNetworkActivityIndicatorVisible = show
+    }
+    
+    private func setupRefreshControl() {
         self.tableView?.refreshControl = refreshControl
         self.tableView?.refreshControl?.addTarget(self, action: #selector(refresh), for: UIControl.Event.valueChanged)
         self.tableView?.refreshControl?.tintColor = UIColor.blue
@@ -45,13 +50,15 @@ class NewsViewController: UIViewController {
     
     @objc func refresh(refreshControl: UIRefreshControl) {
         // Update the data
-        fetchNewsArticles()
+        self.fetchNewsArticles()
         self.tableView?.refreshControl?.endRefreshing()
     }
     
     private func fetchNewsArticles() {
         if let tabBarIndex = self.tabBarController?.selectedIndex {
-            viewModel.fetchNewsArticles(forAPI: viewModel.getApiForTabIndex(tabBarIndex))
+            // Display the activity indicator when trying to fetch data.
+            self.shouldShowActivityIndicator(true)
+            self.viewModel.fetchNewsArticles(for: NewsType.init(section: tabBarIndex))
         }
     }
 }
@@ -62,8 +69,8 @@ extension NewsViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        viewModel.setEmptyTableViewMessage(tableView: self.tableView)
-        return viewModel.articles?.count ?? 0
+        self.viewModel.setEmptyTableViewMessage(tableView: self.tableView)
+        return self.viewModel.articles?.count ?? 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

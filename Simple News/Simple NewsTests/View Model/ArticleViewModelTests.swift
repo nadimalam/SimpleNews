@@ -40,7 +40,7 @@ class ArticleViewModelTests: XCTestCase {
     }
     
     func testArticlePublishedDateGetsSet() {
-        XCTAssertEqual(viewModel.publishedDate, "Monday, Mar 18, 2019 12:00 PM")
+        XCTAssertEqual(viewModel.publishedDate, "Monday, Mar 18, 2019 10:55 AM")
     }
     
     func testArticleCellIdentifierGetsSet() {

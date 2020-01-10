@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import UIKit
 
 enum RequestError: Swift.Error {
     case invalidURL
@@ -15,7 +14,7 @@ enum RequestError: Swift.Error {
 }
 
 protocol NewsServiceProtocol {
-    func fetchNewsArticles(forAPI api:String, completionHandler: @escaping (News?, RequestError?) -> Void)
+    func fetchNewsArticles(for newsType:NewsType, completionHandler: @escaping (News?, RequestError?) -> Void)
 }
 
 class NewsService: NewsServiceProtocol {
@@ -26,15 +25,11 @@ class NewsService: NewsServiceProtocol {
         self.session = session
     }
     
-    func fetchNewsArticles(forAPI api:String, completionHandler: @escaping (News?, RequestError?) -> Void) {
-        
-        // Display the activity indicator when trying to fetch data.
-        shouldShowActivityIndicator(true)
+    func fetchNewsArticles(for newsType:NewsType, completionHandler: @escaping (News?, RequestError?) -> Void) {
         
         // Check the URL
-        guard let url = URL(string: api) else {
+        guard let url = URL(string: newsType.description) else {
             DispatchQueue.main.async {
-                self.shouldShowActivityIndicator(false)
                 Utils.displayAlert(title: ERROR_TITLE, message: ERROR_MSG_URL)
                 return completionHandler(nil, RequestError.invalidURL)
             }
@@ -45,7 +40,6 @@ class NewsService: NewsServiceProtocol {
             // Check if we get any data.
             guard let data = data else {
                 DispatchQueue.main.async {
-                    self.shouldShowActivityIndicator(false)
                     Utils.displayAlert(title: ERROR_TITLE, message: ERROR_MSG_UNKNOWN)
                     completionHandler(nil, RequestError.unknown)
                 }
@@ -55,14 +49,9 @@ class NewsService: NewsServiceProtocol {
             let newsModel = try? JSONDecoder().decode(News.self, from: data)
             
             DispatchQueue.main.async {
-                self.shouldShowActivityIndicator(false)
                 completionHandler(newsModel, nil)
             }
         }
         task.resume()
-    }
-    
-    private func shouldShowActivityIndicator(_ show: Bool) {
-        UIApplication.shared.isNetworkActivityIndicatorVisible = show
     }
 }
