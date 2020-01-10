@@ -18,21 +18,21 @@ struct ArticleViewModel {
     
     var title: String {
         guard let title = article?.title else {
-            return ""
+            return String.empty
         }
         return title
     }
     
     var description: String {
         guard let description = article?.description else {
-            return ""
+            return String.empty
         }
         return description
     }
     
     var sourceName: String {
         guard let sourceName = article?.source?.name else {
-            return ""
+            return String.empty
         }
         return sourceName
     }

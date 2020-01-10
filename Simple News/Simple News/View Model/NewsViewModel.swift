@@ -32,10 +32,9 @@ struct NewsViewModel: NewsViewModelProtocol {
         return articles
     }
     
-    func setEmptyTableViewMessage(tableView: UITableView?) {        
-        news.value?.articles?.count == 0 ?
-            tableView?.setEmptyMessage(EMPTY_TABLE_MESSAGE) :
-            tableView?.restore()
+    func setEmptyTableViewMessage(tableView: UITableView?) {
+        let articles = news.value?.articles ?? []
+        articles.isEmpty ? tableView?.setEmptyMessage(EMPTY_TABLE_MESSAGE) : tableView?.restore()
     }
     
     func fetchNewsArticles(for newsType:NewsType) {

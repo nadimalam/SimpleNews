@@ -28,12 +28,12 @@ class NewsViewController: UIViewController {
     
     private func bind() {
         self.viewModel.news.bind { [unowned self] news in
+            self.tableView?.reloadData()
+            self.shouldShowActivityIndicator(false)
             guard let _ = news else {
                 //Handle error
                 return
             }
-            self.tableView?.reloadData()
-            self.shouldShowActivityIndicator(false)
         }
     }
     
@@ -75,14 +75,14 @@ extension NewsViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: ArticleTableViewCell.cellIdentifier, for: indexPath) as? ArticleTableViewCell,
-            let articles = self.viewModel.articles else {
+            let articles = self.viewModel.articles,
+            !articles.isEmpty else {
                 return UITableViewCell()
         }
         
         let article = articles[indexPath.row]
         let cellViewModel = ArticleViewModel(article: article)
         cell.viewModel = cellViewModel
-        
         return cell
     }        
 }
@@ -91,9 +91,12 @@ extension NewsViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         self.tableView?.deselectRow(at: indexPath, animated: true)
         
-        guard let article = self.viewModel.articles?[indexPath.row] else { return }
-        let model = ArticleViewModel(article: article)
-        let destinationVC = NewsDetailViewController(viewModel: model)
-        self.navigationController?.pushViewController(destinationVC, animated: true)
+        if let articles = self.viewModel.articles {
+            guard !articles.isEmpty else { return }
+            let article = articles[indexPath.row]
+            let model = ArticleViewModel(article: article)
+            let destinationVC = NewsDetailViewController(viewModel: model)
+            self.navigationController?.pushViewController(destinationVC, animated: true)
+        }
     }
 }

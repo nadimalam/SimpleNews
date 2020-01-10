@@ -24,7 +24,7 @@ private let API_COUNTRY: String = "gb"
 // MARK: - Alert View Strings
 let ERROR_TITLE: String = "Oops..."
 let ERROR_MSG_URL: String = "Something went wrong with the API"
-let ERROR_MSG_UNKNOWN: String = "Something went wrong"
+let ERROR_MSG_UNKNOWN: String = "\nSomething went wrong\nPlease check your internet connection."
 
 // MARK: - TableView Strings
 let EMPTY_TABLE_MESSAGE: String = "No articles can be found. \nPlease try again."
