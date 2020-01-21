@@ -24,6 +24,7 @@
 		08BFCDAD23C89548004EBF13 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BFCDAC23C89548004EBF13 /* String+Extension.swift */; };
 		08BFCDAE23C895CA004EBF13 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BFCDAC23C89548004EBF13 /* String+Extension.swift */; };
 		08BFCDAF23C895CA004EBF13 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BFCDAC23C89548004EBF13 /* String+Extension.swift */; };
+		08C4622123D0DD5C006AC0C8 /* CacheProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C4622023D0DD5C006AC0C8 /* CacheProtocol.swift */; };
 		08C5532E2249647700BC09DC /* NewsServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C5532D2249647700BC09DC /* NewsServiceTests.swift */; };
 		2287B2F2223FB93600357426 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2287B2F1223FB93600357426 /* AppDelegate.swift */; };
 		2287B2F4223FB93600357426 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2287B2F3223FB93600357426 /* NewsViewController.swift */; };
@@ -74,6 +75,7 @@
 		08AAA94E22482BCC00F64833 /* ArticleViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModelTests.swift; sourceTree = "<group>"; };
 		08BFCDA523C75619004EBF13 /* NewsType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsType.swift; sourceTree = "<group>"; };
 		08BFCDAC23C89548004EBF13 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		08C4622023D0DD5C006AC0C8 /* CacheProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheProtocol.swift; sourceTree = "<group>"; };
 		08C5532D2249647700BC09DC /* NewsServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsServiceTests.swift; sourceTree = "<group>"; };
 		2287B2EE223FB93600357426 /* Simple News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple News.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2287B2F1223FB93600357426 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -254,6 +256,7 @@
 			isa = PBXGroup;
 			children = (
 				2287B328223FC4E800357426 /* NewsService.swift */,
+				08C4622023D0DD5C006AC0C8 /* CacheProtocol.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -433,6 +436,7 @@
 				2287B33E224002D300357426 /* Date+Extension.swift in Sources */,
 				08BFCDAD23C89548004EBF13 /* String+Extension.swift in Sources */,
 				08BFCDA623C75619004EBF13 /* NewsType.swift in Sources */,
+				08C4622123D0DD5C006AC0C8 /* CacheProtocol.swift in Sources */,
 				2287B2F2223FB93600357426 /* AppDelegate.swift in Sources */,
 				088D9539234A6AC600E18D49 /* NewsDetailViewController.swift in Sources */,
 				2287B339223FE0C300357426 /* Utils.swift in Sources */,
