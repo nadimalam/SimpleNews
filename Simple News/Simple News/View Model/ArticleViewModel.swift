@@ -30,6 +30,13 @@ struct ArticleViewModel {
         return description
     }
     
+    var content: String {
+        guard let content = article?.content else {
+            return String.empty
+        }
+        return content
+    }
+    
     var sourceName: String {
         guard let sourceName = article?.source?.name else {
             return String.empty

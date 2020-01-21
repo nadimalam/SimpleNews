@@ -36,7 +36,7 @@ class NewsDetailViewController: UIViewController {
         self.titleLabel?.text = viewModel.title
         self.dateLabel?.text = viewModel.publishedDate
         self.sourceLabel?.text = viewModel.sourceName
-        self.descriptionLabel?.text = viewModel.description
+        self.descriptionLabel?.text = viewModel.content
         self.articleImageView?.imageFromServerURL(viewModel.imageURL, placeHolder: UIImage(named: "default-news"))
     }
 }
