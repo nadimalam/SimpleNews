@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import UIKit
 
 protocol NewsViewModelProtocol {
     var service: NewsServiceProtocol { get }
@@ -30,11 +29,6 @@ struct NewsViewModel: NewsViewModelProtocol {
             return []
         }
         return articles
-    }
-    
-    func setEmptyTableViewMessage(tableView: UITableView?) {
-        let articles = news.value?.articles ?? []
-        articles.isEmpty ? tableView?.setEmptyMessage(EMPTY_TABLE_MESSAGE) : tableView?.restore()
     }
     
     func fetchNewsArticles(for newsType:NewsType) {

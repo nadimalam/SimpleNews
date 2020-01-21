@@ -61,6 +61,11 @@ class NewsViewController: UIViewController {
             self.viewModel.fetchNewsArticles(for: NewsType.init(section: tabBarIndex))
         }
     }
+    
+    private func setEmptyTableViewMessage(tableView: UITableView?) {
+        let articles = self.viewModel.articles ?? []
+        articles.isEmpty ? tableView?.setEmptyMessage(EMPTY_TABLE_MESSAGE) : tableView?.restore()
+    }
 }
 
 extension NewsViewController: UITableViewDataSource {
@@ -69,7 +74,7 @@ extension NewsViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        self.viewModel.setEmptyTableViewMessage(tableView: self.tableView)
+        self.setEmptyTableViewMessage(tableView: self.tableView)
         return self.viewModel.articles?.count ?? 0
     }
     
