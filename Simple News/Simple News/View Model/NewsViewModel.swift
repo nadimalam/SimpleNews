@@ -10,7 +10,7 @@ import Foundation
 
 protocol NewsViewModelProtocol {
     var service: NewsServiceProtocol { get }
-    var news: Dynamic<News?> { get }
+    var news: Observe<News?> { get }
     var articles: [Article]? { get }
     
     func fetchNewsArticles(for newsType:NewsType)
@@ -18,7 +18,7 @@ protocol NewsViewModelProtocol {
 
 struct NewsViewModel: NewsViewModelProtocol {
     let service: NewsServiceProtocol
-    let news: Dynamic<News?> = Dynamic(nil)
+    let news: Observe<News?> = Observe(nil)
     
     init(service: NewsServiceProtocol = NewsService.shared) {
         self.service = service

@@ -41,7 +41,7 @@ extension Article {
 extension Article.Source {
     static func mockSource() -> Article.Source {
         let source = Article.Source(id: "bbc-news",
-                            name: "BBC News")
+                                    name: "BBC News")
         return source
     }
 }

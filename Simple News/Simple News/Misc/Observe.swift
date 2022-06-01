@@ -1,5 +1,5 @@
 //
-//  Dynamic.swift
+//  Observe.swift
 //  Simple News
 //
 //  Created by Nadim Alam on 18/03/2019.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Dynamic<T> {
+class Observe<T> {
     typealias Listener = (T) -> ()
     var listener: Listener?
     
