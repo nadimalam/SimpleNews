@@ -66,3 +66,8 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+Simple News/Simple News/.DS_Store
+*.xcuserstate
+Simple News/Simple NewsTests/.DS_Store
+Simple News/.DS_Store
+.DS_Store
